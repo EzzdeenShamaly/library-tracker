@@ -27,7 +27,7 @@ public class App {
     }
 
     static void print_banner() {
-        System.out.println("=== Library Tracker ===");
+        System.out.println("=== Library Tracker v1.0 ===");
     }
 
     static void printUsage() {
