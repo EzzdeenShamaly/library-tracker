@@ -10,10 +10,10 @@ public class App {
         BookStore store = new BookStore("books.json");
         switch (args[0]) {
             case "add":
-                System.out.println("Not implemented yet.");
+                AddCommand.run(store, args);
                 break;
             case "list":
-                System.out.println("Not implemented yet.");
+                ListCommand.run(store, args);
                 break;
             case "search":
                 System.out.println("Not implemented yet.");

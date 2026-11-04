@@ -14,3 +14,8 @@ I worked alone, as the instructor allowed, and did the Student A and Student B s
 javac -d out src/*.java
 java -cp out App
 ```
+
+## Commands
+
+- `add <title> <author>`: adds a book
+- `list`: lists all books
