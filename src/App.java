@@ -16,7 +16,7 @@ public class App {
                 System.out.println("Not implemented yet.");
                 break;
             case "search":
-                System.out.println("Not implemented yet.");
+                SearchCommand.run(store, args);
                 break;
             case "remove":
                 System.out.println("Not implemented yet.");
