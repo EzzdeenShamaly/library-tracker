@@ -13,3 +13,8 @@ A tiny Java program that adds, lists, searches and removes books in `books.json`
 javac -d out src/*.java
 java -cp out App
 ```
+
+## Commands
+
+- `add <title> <author>`: adds a book
+- `list`: lists all books
