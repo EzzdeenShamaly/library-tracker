@@ -19,7 +19,7 @@ public class App {
                 SearchCommand.run(store, args);
                 break;
             case "remove":
-                System.out.println("Not implemented yet.");
+                RemoveCommand.run(store, args);
                 break;
             default:
                 printUsage();
