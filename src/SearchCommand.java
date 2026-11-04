@@ -7,7 +7,7 @@ public class SearchCommand {
             return;
         }
         for (Book book : store.load()) {
-            if (book.getTitle().contains(args[1])) {
+            if (book.getTitle().toLowerCase().contains(args[1].toLowerCase())) {
                 System.out.println("- " + book);
             }
         }
