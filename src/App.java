@@ -21,6 +21,9 @@ public class App {
             case "remove":
                 RemoveCommand.run(store, args);
                 break;
+            case "count":
+                CountCommand.run(store, args);
+                break;
             default:
                 printUsage();
         }
@@ -31,6 +34,6 @@ public class App {
     }
 
     static void printUsage() {
-        System.out.println("Commands: add <title> <author> | list | search <title> | remove <title>");
+        System.out.println("Commands: add <title> <author> | list | search <title> | remove <title> | count");
     }
 }
