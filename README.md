@@ -2,10 +2,11 @@
 
 A tiny Java program that adds, lists, searches and removes books in `books.json`.
 
-## Team
+## Author
 
-- Ezzdeen Shamaly (Student A): https://github.com/EzzdeenShamaly
-- Bahaa N Nawati (Student B): https://github.com/Bahaa-N-Nawati
+Ezzdeen Shamaly: https://github.com/EzzdeenShamaly
+
+I worked alone, as the instructor allowed, and did the Student A and Student B steps from two clones of this repository. GitHub does not let an author approve their own pull request, so each review is written as a comment on the pull request.
 
 ## How to run
 
