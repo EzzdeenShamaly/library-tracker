@@ -11,6 +11,8 @@ public class RemoveCommand {
         if (books.removeIf(book -> book.getTitle().equals(args[1]))) {
             store.save(books);
             System.out.println("Removed: " + args[1]);
+        } else {
+            System.out.println("No book with the title: " + args[1]);
         }
     }
 }
