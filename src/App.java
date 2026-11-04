@@ -13,7 +13,7 @@ public class App {
                 AddCommand.run(store, args);
                 break;
             case "list":
-                System.out.println("Not implemented yet.");
+                ListCommand.run(store, args);
                 break;
             case "search":
                 System.out.println("Not implemented yet.");
